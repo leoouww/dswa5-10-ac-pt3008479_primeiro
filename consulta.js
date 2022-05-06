@@ -1,4 +1,4 @@
-const { MongoClient } = require('mongodb');
+oconst { MongoClient } = require('mongodb');
 // or as an es module:
 // import { MongoClient } from 'mongodb'
 
@@ -11,7 +11,7 @@ const dbName = 'ifsp';
 
 async function main() {
   // Use connect method to connect to the server
-  console.log("Aluno: Thiago Ferreira");
+  console.log("Aluno: Leonardo Castro");
   await client.connect();
   console.log('Connected successfully to server');
   const db = client.db(dbName);
